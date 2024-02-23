@@ -1,0 +1,16 @@
+<h3>
+    What is a point-to-point internet connection and what are the benefits?
+</h3>
+<p>
+    Today, most business activities and even the daily activities of individuals depend on the Internet, and a low-speed Internet service can have a great impact on the work of organizations and daily tasks. The best solution to the problem of interruption and slowing down the Internet is to use point-to-point Internet service. Point-to-point (P2P) Internet, on the other hand, does not have the telecommunications restrictions on fiber optic, PCM, and lines, and the length of the Internet activation process on these lines, and provides high-speed Internet access without dependence on telephone lines. What is point-to-point connection and what are the benefits?
+
+</p>
+
+<p>
+    Point-to-Point Internet connection is a wireless method of connecting to the Internet over large areas without the need for extensive cabling. This is achieved by setting up a point of origin in a desirable location and using point-to-point antennas and radio equipment throughout the required area. This form of Internet operation has many advantages, and for this reason, educational institutions, organizations, towers and residential complexes use the point-to-point internet.
+</p>
+
+<p>
+
+    A point-to-point connection is a private data connection that securely connects two or more locations. The point-to-point connection does not scan the public Internet and is inherently secure and does not require data encryption. Point-to-point connectivity provides unparalleled quality of service (QoS) because it is not a shared service (private line) and follows the same direct path of the same network each time. Point-to-point connectivity is used by businesses to provide a reliable and secure service for applications such as credit card processing, file sharing, data backup, VOIP, and video conferencing. P2P private networks are capable of delivering bandwidth speeds of up to one gigabit per second or more, and meet all your audio, data and video needs
+</p>

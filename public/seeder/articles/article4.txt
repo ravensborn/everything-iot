@@ -1,0 +1,95 @@
+<h3>
+    Dedicated vs. Shared
+</h3>
+
+
+<p>
+    When it comes to fiber optic internet, there are three distinct types of fiber delivery. There are also two distinct
+    ways that Internet Service Providers (ISPs) connect your home to the network. You can be connected with shared
+    fiber, or connected with dedicated fiber.
+</p>
+
+<p>
+    When it comes to fiber optic internet, there are three distinct types of fiber delivery. There are also two distinct
+    ways that Internet Service Providers (ISPs) connect your home to the network. You can be connected with shared
+    fiber, or connected with dedicated fiber.
+</p>
+
+<h4>
+    What is Shared Fiber?
+</h4>
+
+<p>
+    Shared fiber simply means more than one residential unit is using the same fiber connection. Essentially, the single
+    fiber connection from the data node is split when it comes into the building. Shared fiber typically uses the
+    existing building infrastructure which is copper based (ethernet, coaxial cable, etc.). Sometimes, shared fiber
+    bandwidth is spread across other buildings many miles away using point-to-point radio shot.
+    Before we look at the pros and cons of shared fiber, let’s first look at dedicated fiber.
+
+</p>
+
+<h4>
+    What is Dedicated Fiber?
+</h4>
+
+<p>
+    Dedicated fiber is true to its name. Each individual resident connection has its own fiber connection out to the
+    data node. It connects from the property all the way out to the data hub where it then connects to the fiber
+    backbone. Each dedicated customer has their own connection and bandwidth that isn’t shared with any other customer.
+</p>
+
+<h4>Pros and Cons</h4>
+
+<h5>Shared Fiber</h5>
+<ul>
+    <li>
+        Pros
+        <ul>
+            <li>Fewer fibers need to be pulled to serve a large number of customers</li>
+            <li>Smaller infrastructure costs can be passed on to customers</li>
+            <li>Large bandwidth potential because it’s still fiber</li>
+        </ul>
+    </li>
+
+    <li>
+        Cons
+        <ul>
+            <li>All customers share the same bandwidth</li>
+            <li>Uses older, existing low-tech infrastructure</li>
+            <li>Limited bandwidth capacity because of copper cable limitations</li>
+            <li>
+                Slower speeds and throttling during peak usage (6-10pm)
+                <ul>
+                    <li>Gamers can experience more lag</li>
+                    <li>Streamers can experience buffering and loading issues</li>
+                    <li>Telecommuters can experience cut outs during conferencing</li>
+                </ul>
+            </li>
+
+        </ul>
+    </li>
+</ul>
+
+<h5>Dedicated Fiber</h5>
+<ul>
+    <li>
+        Pros
+        <ul>
+            <li>No sharing your bandwidth with any neighbors</li>
+            <li>Streamers and Telecommuters will have excellent video experiences</li>
+            <li>Get the speed that you pay for (not up-to speeds)</li>
+            <li>No throttling during peak usage</li>
+            <li>Low latency gives gamers a competitive advantage</li>
+            <li>True dedicated fiber will future-proof your internet needs for decades</li>
+        </ul>
+    </li>
+
+    <li>
+        Cons
+        <ul>
+            <li>Higher upfront infrastructure costs</li>
+            <li>Installation time takes longer to wire the whole building with fiber</li>
+            <li>No time to run to the bathroom while your video streaming service loads</li>
+        </ul>
+    </li>
+</ul>

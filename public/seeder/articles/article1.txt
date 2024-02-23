@@ -1,0 +1,120 @@
+<h3>
+    11 Ways to Protect Your Computer From Viruses
+</h3>
+<p>
+
+    It’s something we all hope to avoid but the truth of the matter is that we can’t dodge it forever. Some of us are
+    the unfortunate acquirers of computer viruses. Although there are always new viruses coming out with ransomware,
+    hacks, attacks, vulnerabilities and data theft affecting companies all around the world on a daily basis, it’s just
+    a matter of time before your business is hit. Business Knowledge Systems' goal is to provide you with the best
+    network security protection possible, while also keeping your unique needs and budget in mind.
+
+</p>
+
+<p>
+<h4>Install an anti-virus program</h4>
+Whether you are connecting to the internet or not, having reliable protection is the route to go. Anti-virus programs are a minimal investment and are worth the dollars so as soon as you power up that computer, make sure you are protected!
+</p>
+
+<p>
+<h4>
+    Install anti-spyware and anti-malware programs
+</h4>
+Many of these programs are free and prevent viruses from doing any damage on your computer. They require continuous running and updating but when used correctly, they serve their purpose.
+</p>
+
+<p>
+<h4>
+    Avoid suspicious websites
+</h4>
+A lot of times websites will notify you if you are about to enter a website that attempts to install or run a program on your computer but not always. Avoid websites such as those.
+</p>
+
+<p>
+<h4>
+    Never open email attachments without screening them
+</h4>
+The most common way viruses are spread remains to be through email. Make sure you use an email provider that requires all attachments to be scanned prior to opening, to ensure your computer doesn’t get a virus. Far too many people will automatically assume that any attachment that lands in their work email inbox is safe and will open it without thinking twice.
+</p>
+
+
+<p>
+<h4>
+    Set up automatic scans
+</h4>
+Setting up scans to run on your computer daily or weekly is a good idea to get rid of any viruses. This keeps your
+computer updated and clear of issues.
+</p>
+
+
+<p>
+<h4>
+    Watch your downloads
+</h4>
+We understand that downloading files from the internet such as music and movies is what so many of us do, but it
+also gets so many of us in trouble. Big files like those are easy to sneak some trouble into so be aware of what you
+are downloading.
+</p>
+
+<p>
+<h4>
+    Update, Update, Update!
+</h4>
+Microsoft Windows ‘Critical Update’ is one example of staying ahead of all the hackers out there. Critical Update is
+an entire branch of Microsoft that is dedicated to keeping computers free is viruses. Always keep your system
+updated.
+</p>
+
+<p>
+<h4>
+    Always be in the know
+</h4>
+Whether you are a computer fanatic or you just use yours casually, always know what the latest viruses are and how
+they will affect your computer. This will prepare you if something happens so you can fix the problem sooner. If you
+get wind of a virus that is going around like wildfire than be sure to be on high alert. Don’t accept any downloads
+and be extra cautious when opening emails and files.
+</p>
+
+<p>
+<h4>
+    ALWAYS use MFA
+</h4>
+Multi-Factor Authentication is a second layer of protection when you log into your email services (or other services
+like remote access to a network). You log in with your password, you are then prompted to enter a code that is
+provided via an app on your phone or a text message. This way, even if the bad guys get your password, they can’t
+log in because they don’t have access to your phone. Everyone knows that you can download illegal or ‘cracked’
+software online that seems to be easier on the wallet but in reality, downloading those programs hurt you. They
+subject your computer to hard-to-detect bugs and will end up causing you more problems.
+</p>
+
+<p>
+<h4>
+    Install a firewall
+</h4>
+A firewall is a program that screens incoming internet and network traffic. Along with your virus program, it can
+help prevent unauthorized access to your computer.
+</p>
+
+<p>
+<h4>
+    Educate Your Workforce
+</h4>
+If you want to increase the return on your IT Security investment, the very best thing you can do is educate your
+workforce to the dangers that are lurking on the 'net. Teach them security best practices so that they become part
+of your network security solution rather than being yet another risk factor you have to guard against.
+</p>
+
+<p>
+<h4>
+    About Business Knowledge Systems
+</h4>
+Founded in 2000, Business Knowledge Systems (BKS Systems), a Chicago managed IT consulting company, offers managed
+IT services, including IT consulting services, IT support services and cloud-based implementation, support and
+management services. BKS Systems has been helping small and medium-sized businesses throughout the greater Chicago
+area, including northern Indiana. With the inclusion of cloud services, we now serve remote clients across the
+country, as well.
+</p>
+
+
+
+

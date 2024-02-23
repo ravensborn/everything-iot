@@ -1,0 +1,174 @@
+<h3>What is Network Security?: Why Is Network Security Important?</h3>
+<p>
+    Our world has been converted to digitization, resulting in modifications in nearly all our daily activities. All
+    organizations want to protect their networks if the intention is to deliver the services demanded using employees
+    and customers. Network security ultimately protects the recognition of your organization. With hackers increasing
+    and becoming smarter day by day, the need to utilize network security tools becomes more and more impotent.
+</p>
+
+<h4>14 Types Of Network Security Protections</h4>
+<ol>
+    <li>Antivirus and Antimalware Software</li>
+    <li>Application Security</li>
+    <li>Behavioral Analytics</li>
+    <li>Data Loss Prevention (DLP)</li>
+    <li>Email Security</li>
+    <li>Firewalls</li>
+    <li>Mobile Device Network Security</li>
+    <li>Network Segmentation</li>
+    <li>Security Information and Event Management (SIEM)</li>
+    <li>Virtual Private Network (VPN)</li>
+    <li>Web Security</li>
+    <li>Wireless Security</li>
+    <li>Endpoint Security</li>
+    <li>Network Access Control (NAC)</li>
+</ol>
+
+<h4>Here are the 14 Types of Network Security Protections
+    Antivirus and Antimalware Software:</h4>
+
+<p>
+    This software is used for protecting against malware, which includes spyware, ransomware, Trojans, worms, and
+    viruses. Malware can also become very dangerous as it can infect a network and then remain calm for days or even
+    weeks. This software handles this threat by scanning for malware entry and regularly tracks files afterward to
+    detect anomalies, remove malware, and fix the damage.
+</p>
+
+<h4>Application Security:</h4>
+<p>
+    It is essential to have application security since no app is created perfectly. Any application can comprise
+    vulnerabilities or holes that attackers use to enter your network. Application security thus encompasses the
+    software, hardware, and processes you select for closing those holes.
+</p>
+
+<h4>Behavioral Analytics:</h4>
+<p>
+    To detect abnormal network behavior, you will have to know what normal behavior looks like. Behavioral analytics
+    tools can automatically discern activities that deviate from the norm. Your network security team will thus be able
+    to efficiently detect indicators of compromise that pose a potential problem and rapidly remediate threats.
+</p>
+
+<h4>
+    Data Loss Prevention (DLP):
+</h4>
+
+<p>
+    Organizations should guarantee that their staff does not send sensitive information outside the network. They should
+    thus use DLP technologies, network security measures that prevent people from uploading, forwarding, or even
+    printing vital information in an unsafe manner.
+</p>
+
+<h4>
+    Email Security:
+</h4>
+
+<p>
+    Email gateways are considered the number one threat vector for a security breach. Attackers use social engineering
+    tactics and personal information to build refined phishing campaigns to deceive recipients and then send them to
+    sites serving up malware. An email security application can block incoming attacks and control outbound messages to
+    prevent the loss of sensitive data.
+</p>
+
+<h4>
+    Firewalls:
+</h4>
+
+<p>
+    Firewalls place a barrier between your trusted internal network and untrusted outside networks, like the Internet. A
+    set of defined rules are employed to block or allow traffic. A firewall can be software, hardware, or both. The free
+    firewall efficiently manages traffic on your PC, monitors in/out connections, and secures all connections when you
+    are online.
+</p>
+
+<h4>
+    Intrusion Prevention System (IPS):
+</h4>
+
+<p>
+    An IPS is network security capable of actively scanning network traffic to block attacks. The IPS Setting interface
+    permits the administrator to configure the ruleset updates for Snort. It is possible to schedule the ruleset updates
+    allowing them to run at particular intervals automatically, and these updates can be run manually on demand.
+</p>
+
+<h4>
+    Mobile Device Network Security:
+</h4>
+
+<p>
+    Mobile devices and apps are increasingly being targeted by cybercriminals. 90% of IT organizations could soon
+    support corporate applications on personal mobile devices. You indeed have to control which devices can access your
+    network. It is also necessary to configure their connections to keep network traffic private.
+</p>
+
+<h4>
+    Network Segmentation:
+</h4>
+
+<p>
+    Software-defined segmentation places network traffic into varied classifications and makes enforcing security
+    policies a lot easier. The categories are ideally based on endpoint identity, not just IP addresses. Rights can be
+    accessed based on location, role, and more so that the right people get the correct level of access and suspicious
+    devices are thus contained and remediated.
+</p>
+
+
+<h4>
+    Security Information and Event Management (SIEM):
+</h4>
+
+<p>
+    SIEM products bring together all the information needed by your network security staff to identify and respond to
+    threats. These products are available in different forms, including virtual and physical appliances and server
+    software.
+</p>
+
+<h4>
+    Virtual Private Network (VPN):
+</h4>
+
+<p>
+    A VPN is another type of network security capable of encrypting the connection from an endpoint to a network, mainly
+    over the Internet. A Remote VPN Access typically uses IPsec or Secure Sockets Layer to authenticate the
+    communication between web and device.
+</p>
+
+<h4>
+    Web Security:
+</h4>
+
+<p>
+    A perfect web security solution will help in controlling your staff’s web use, denying access to malicious websites,
+    and blocking.
+</p>
+
+<h4>
+    Wireless Security:
+</h4>
+<p>
+    The mobile office movement is gaining momentum along with wireless networks and access points. However, wireless
+    networks are not as secure as wired ones, which makes way for hackers to enter. It is thus essential for wireless
+    security to be strong. It should be noted that without stringent security measures installing a wireless LAN could
+    be like placing Ethernet ports everywhere. Products specifically designed for protecting a wireless network will
+    have to be used to prevent an exploit from taking place.
+</p>
+
+<h4>
+    Endpoint Security:
+</h4>
+<p>
+    Endpoint Security, also known as Network Protection or Network Security, is a methodology used for protecting
+    corporate networks when accessed through remote devices such as laptops or several other wireless devices and mobile
+    devices. For instance, Xcitium Advanced Endpoint Protection software presents seven defense layers: virus scope,
+    file reputation, auto-sandbox, host intrusion prevention, web URL filtering, firewall, and antivirus software. All
+    this is offered under a single offering to protect them from both unknown and known threats.
+</p>
+
+<h4>
+    Network Access Control (NAC):
+</h4>
+
+<p>
+    This network security process helps you control who can access your network. It is essential to recognize each
+    device and user to keep out potential attackers. This, indeed, will help you to enforce your security policies.
+    Noncompliant endpoint devices can be given only limited access or just blocked.
+</p>

@@ -1,0 +1,30 @@
+@extends('layouts.master')
+
+@section('content')
+<div class="container content-space-2">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header fw-bold">
+                    {{ __('Verify Your Email Address') }}
+                </div>
+
+                <div class="card-body">
+                    @if (session()->get('message'))
+                        <div class="text-dark mb-3" role="alert">
+                            {{ __('A new verification link has been sent to your email address.') }}
+                        </div>
+                    @endif
+
+                    {!! __('Before proceeding, please check your email <span class="fw-bold">'.  auth()->user()->email .'</span> for a verification link.') !!}
+                    {{ __('If you did not receive the email') }},
+                    <form class="d-inline" method="POST" action="{{ route('verification.send') }}">
+                        @csrf
+                        <button type="submit" class="btn btn-link p-0 m-0 align-baseline">{{ __('click here to request another') }}</button>.
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
