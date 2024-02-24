@@ -24,35 +24,7 @@ class TimeNetPaymentMethodSeeder extends Seeder
                 'fee_type' => 'fixed_amount',
                 'enabled' => true,
                 'icon_path' => public_path('seeder/payment-methods/cash-on-delivery.png'),
-            ], [
-                'name' => 'FastPay',
-                'fee' => 5,
-                'fee_type' => 'fixed_amount',
-                'enabled' => false,
-                'icon_path' => public_path('seeder/payment-methods/fastpay.png'),
-            ],
-            [
-                'name' => 'NassWallet',
-                'fee' => 5,
-                'fee_type' => 'fixed_amount',
-                'enabled' => false,
-                'icon_path' => public_path('seeder/payment-methods/nasswallet.png'),
-            ],
-
-            [
-                'name' => 'ZainCash',
-                'fee' => 5,
-                'fee_type' => 'fixed_amount',
-                'enabled' => false,
-                'icon_path' => public_path('seeder/payment-methods/zaincash.png'),
-            ],
-            [
-                'name' => 'Stripe',
-                'fee' => 5,
-                'fee_type' => 'fixed_amount',
-                'enabled' => false,
-                'icon_path' => public_path('seeder/payment-methods/stripe.png'),
-            ],
+            ]
         ];
 
         foreach ($payments as $payment) {

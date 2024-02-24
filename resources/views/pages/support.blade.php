@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.store')
 
 
 @section('content')
@@ -39,7 +39,7 @@
             <h2>{{ __('website.support.get_expert_support') }}</h2>
 
             <p>
-              
+
             </p>
 
             <p>
@@ -56,17 +56,6 @@
 
             <hr>
         </div>
-
-        <div>
-            <p class="text-center">{{ __('website.support.locate_us_on_map') }}</p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12874.275909137674!2d43.9963447!3d36.2256701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400718ae16e4dc03%3A0x65a2a5aa8ee81a5c!2sTime%20Net!5e0!3m2!1sen!2siq!4v1688945043584!5m2!1sen!2siq"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
-    <div class="container">
-        <hr>
     </div>
     <div class="container content-space-b-2" id="support-form">
         <div class="bg-dark rounded-2"

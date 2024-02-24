@@ -85,18 +85,22 @@ class TimeNetMenuSeeder extends Seeder
                 [
                     'name' => 'Home',
                     'type' => Menu::ITEM_TYPE_ROUTE,
-                    'url' => route('home'),
-                ],
-
-                [
-                    'name' => 'Store',
-                    'type' => Menu::ITEM_TYPE_ROUTE,
                     'url' => route('store.index'),
                 ],
                 [
-                    'name' => 'Products',
+                    'name' => 'Store',
                     'type' => Menu::ITEM_TYPE_ROUTE,
                     'url' => route('store.products.index'),
+                ],
+                [
+                    'name' => 'About',
+                    'type' => Menu::ITEM_TYPE_ROUTE,
+                    'url' => route('about'),
+                ],
+                [
+                    'name' => 'Support',
+                    'type' => Menu::ITEM_TYPE_ROUTE,
+                    'url' => route('support'),
                 ],
                 [
                     'name' => 'My Account',
@@ -113,18 +117,17 @@ class TimeNetMenuSeeder extends Seeder
                 [
                     'name' => 'Home',
                     'type' => Menu::ITEM_TYPE_ROUTE,
-                    'url' => route('home'),
-                ],
-
-                [
-                    'name' => 'Store',
-                    'type' => Menu::ITEM_TYPE_ROUTE,
                     'url' => route('store.index'),
                 ],
                 [
-                    'name' => 'Products',
+                    'name' => 'About',
                     'type' => Menu::ITEM_TYPE_ROUTE,
-                    'url' => route('store.products.index'),
+                    'url' => route('about'),
+                ],
+                [
+                    'name' => 'Support',
+                    'type' => Menu::ITEM_TYPE_ROUTE,
+                    'url' => route('support'),
                 ],
                 [
                     'name' => '',

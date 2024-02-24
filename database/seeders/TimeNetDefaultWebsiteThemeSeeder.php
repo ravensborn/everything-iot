@@ -16,13 +16,13 @@ class TimeNetDefaultWebsiteThemeSeeder extends Seeder
     public function run(): void
     {
         $defaultTheme = WebsiteTheme::create([
-            'name' => 'Default TimeNet Theme',
-            'description' => 'The default theme created for TimeNet website, consists of modern simple looking elements that gives TimeNet a modern look, that is easy to use.',
+            'name' => 'Default EverythingIOT Theme',
+            'description' => 'The default theme created for EverythingIOT website, consists of modern simple looking elements that gives EverythingIOT a modern look, that is easy to use.',
             'is_selected' => true,
             'properties' => [],
         ]);
 
-        $defaultTheme->addMedia(public_path('images/wallpapers/RUT200-social-alt-share.png'))
+        $defaultTheme->addMedia(public_path('images/wallpapers/1.jpg'))
             ->preservingOriginal()
             ->withCustomProperties([
                 'background-overlay' => 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))',
@@ -30,7 +30,7 @@ class TimeNetDefaultWebsiteThemeSeeder extends Seeder
             ])
             ->toMediaCollection('website-banner');
 
-        $defaultTheme->addMedia(public_path('images/wallpapers/store-wallpaper.jpg'))
+        $defaultTheme->addMedia(public_path('images/wallpapers/1.jpg'))
             ->preservingOriginal()
             ->withCustomProperties([
                 'background-overlay' => 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))',

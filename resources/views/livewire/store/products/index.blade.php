@@ -34,26 +34,6 @@
     <!-- End Breadcrumb -->
 
     <div class="container content-space-t-1">
-        @if(!$user || ($user && $user->store_welcome_message))
-            <div class="row">
-                <div class="col">
-                    <div class="alert alert-soft-dark" role="alert">
-
-
-                        <div class="d-flex justify-content-between">
-                            <h3 class="alert-heading">{{ __('website.store.pages.products.welcome_message_title') }}</h3>
-                            <div class="col-6 text-end">
-                                <div style="cursor:pointer;" class="pb-2 pe-2" wire:click="dismissMessage">
-                                    <i class="bi bi-x-lg"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        {!! __('website.store.pages.products.welcome_message_description') !!}
-                    </div>
-                </div>
-            </div>
-        @endif
         @if(auth()->check())
 
             <div class="row">

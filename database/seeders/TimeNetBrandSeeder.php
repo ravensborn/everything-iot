@@ -18,15 +18,10 @@ class TimeNetBrandSeeder extends Seeder
     {
 
         $brands = [
-            'TimeNet',
+            'Everything IOT',
             'Cisco Systems',
             'MikroTik',
             'Huawei',
-            'Netgear',
-            'Broadcom',
-            'Juniper Networks',
-            'Arista Networks',
-            'Dell Networking',
             'Hewlett Packard Enterprise'
 
 

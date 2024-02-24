@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
 
 
         $user = User::factory()->create([
-            'name' => 'TimeNet Admin',
+            'name' => 'Admin',
             'email' => 'yad@gmail.com',
             'phone_number' => '+9647507534867',
             'lc_country_id' => EnabledCountry::COUNTRY_IRAQ,
@@ -91,16 +91,14 @@ class DatabaseSeeder extends Seeder
 //        }
 
         $this->call([
-
-
             TimeNetBrandSeeder::class, //Brands
             TimeNetProductSeeder::class, //Products
-            TimeNetServiceSeeder::class, //Services
-            TimeNetFeatureSeeder::class, //Services
-            TimeNetArticleSeeder::class, //Articles
+//            TimeNetServiceSeeder::class, //Services
+//            TimeNetFeatureSeeder::class, //Services
+//            TimeNetArticleSeeder::class, //Articles
             TimeNetMenuSeeder::class, //Articles
-            TimeNetTeamMemberSeeder::class, //Team Members
-            TimeNetFakeFAQSeeder::class,
+//            TimeNetTeamMemberSeeder::class, //Team Members
+//            TimeNetFakeFAQSeeder::class,
             TimeNetDefaultWebsiteThemeSeeder::class,
         ]);
 

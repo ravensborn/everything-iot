@@ -20,16 +20,12 @@ class TimeNetProductSeeder extends Seeder
     {
 
         $arrayOfCategories = [
-            'TimeNet Services',
-            'Routers',
-            'Switches',
-            'Firewalls',
-            'VPNs',
-            'Wireless Access Points',
-            'Cables & Connectors',
-            'Network Adapters',
-            'Network Tools & Testers',
-            'Network Services',
+            'Everything IOT',
+            'Bluetooth',
+            'WIFI',
+            'Health Care',
+            'Security',
+            'Home Automation',
         ];
 
         foreach ($arrayOfCategories as $item) {

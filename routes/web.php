@@ -26,7 +26,7 @@ use App\Http\Livewire\Users\Store\Wishlist as LivewireUserStoreWishlist;
 
 //Home route
 
-Route::get('/', [HomeController::class, 'index'])
+Route::get('/', LivewireStoreIndex::class)
     ->name('home');
 
 //Static page routes

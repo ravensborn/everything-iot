@@ -9,22 +9,24 @@
 
     <!--Basic meta info -->
     <meta name="description"
-          content="TimeNet Company a network expertise company works in the fields of providing internet access">
-    <meta name="keywords" content="TimeNet, Internet, ISP, Store, Network Store, Network Devices, Switch, Router, Hub, Cable, Fiber">
+          content="Everything IOT is a leading Technology and Industrial Internet of Things solution provider/distributor with an extensive product range">
+    <meta name="keywords"
+          content="EverythingIoT, Internet, ISP, Store, Network Store, Network Devices, Switch, Router, Hub, Cable, Fiber">
     <meta name="author" content="Yad Hoshyar">
 
     <!--OpenGraph meta -->
-    <meta property="og:description" content="TimeNet Company a network expertise company works in the fields of providing internet access">
-    <meta property="og:title" content="TimeNet Company">
+    <meta property="og:description"
+          content="Everything IOT is a leading Technology and Industrial Internet of Things solution provider/distributor with an extensive product range">
+    <meta property="og:title" content="Everything IOT">
     <meta property="og:image" content="{{ asset('images/logo.png') }}">
     <meta property="og:url" content="{{ config('env.APP_URL') }}">
 
     <!-- Title -->
-    <title>TimeNet ISP Store</title>
+    <title>Everything IOT</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
-    <link rel="shortcut icon" href="{{ asset('images/logo.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/iot.png') }}">
+    <link rel="shortcut icon" href="{{ asset('images/iot.png') }}">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -67,7 +69,16 @@
         }
 
 
+        .bg-dark {
+            --bs-bg-opacity: 1;
+            background-color: rgb(29, 29, 29) !important;
+        }
 
+        .btn-dark {
+            --bs-bg-opacity: 1;
+            background-color: rgb(29, 29, 29) !important;
+            border: unset;
+        }
 
     </style>
 
@@ -94,7 +105,7 @@
 
 <body>
 
-@if(request()->routeIs('store.index'))
+@if(request()->routeIs('store.index') || request()->routeIs('home'))
     @include('partial-components.store.header-store')
 @else
     @include('partial-components.store.header')
@@ -201,20 +212,6 @@
 
 <x-livewire-alert::scripts/>
 
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-    (function () {
-        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/64aa7865cc26a871b0274225/1h4sucjkp';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
-</script>
-<!--End of Tawk.to Script-->
 
 </body>
 </html>

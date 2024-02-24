@@ -77,7 +77,7 @@
 
                             @empty
                                 <p>
-                                    {{ __('website.user_section.no_orders') }}
+                                    {!! __('website.user_section.no_orders') !!}
                                 </p>
                             @endforelse
 

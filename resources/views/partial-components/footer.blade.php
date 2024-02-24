@@ -37,9 +37,6 @@
                 <!-- List -->
                 <ul class="list-unstyled list-py-1 mb-0">
                     <li><a class="link-sm link-light" href="{{ route('about') }}">{{ __('website.footer.about') }}</a></li>
-                    <li><a class="link-sm link-light" href="{{ route('posts.index', ['grid_type' => 'grid', 'slug' => 'services']) }}">{{ __('website.footer.services') }}</a></li>
-                    <li><a class="link-sm link-light" href="{{ route('posts.index', ['grid_type' => 'grid', 'slug' => 'solutions']) }}">{{ __('website.footer.solutions') }}</a></li>
-                    <li><a class="link-sm link-light" href="{{ route('posts.index', ['grid_type' => 'grid', 'slug' => 'product-catalog']) }}">{{ __('website.footer.catalog') }}</a></li>
                     <li><a class="link-sm link-light" href="tel:9647503807676">{{ __('website.footer.contact_us') }}</a></li>
                 </ul>
                 <!-- End List -->
@@ -58,24 +55,11 @@
             </div>
             <!-- End Col -->
 
-            <div class="col-6 col-sm mb-7 mb-sm-0">
-                <h5 class="text-white mb-3">{{ __('website.footer.documentation') }}</h5>
-
-                <!-- List -->
-                <ul class="list-unstyled list-py-1 mb-0">
-                    <li><a class="link-sm link-light" href="{{ route('downloads') }}">{{ __('website.footer.downloads') }}</a></li>
-                    <li><a class="link-sm link-light" href="{{ route('faq') }}">{{ __('website.footer.faq') }}</a></li>
-                </ul>
-                <!-- End List -->
-            </div>
-            <!-- End Col -->
-
             <div class="col-6 col-sm">
                 <h5 class="text-white mb-3">{{ __('website.footer.resources') }}</h5>
 
                 <!-- List -->
                 <ul class="list-unstyled list-py-1 mb-5">
-                    <li><a class="link-sm link-light" href="{{ route('soon') }}"><i class="bi-question-circle-fill me-1"></i> {{ __('website.footer.help')  }}</a></li>
                     <li><a class="link-sm link-light" href="{{ route('users.account.overview') }}"><i class="bi-person-circle me-1"></i> {{ __('website.footer.your_account') }}</a></li>
                     @if(auth()->check() && (auth()->user()->hasRole('admin') || auth()->user()->hasRole('moderator')))
                         <li><a class="link-sm link-light" href="{{ route('dashboard.overview') }}"><i class="bi-lightning-charge me-1"></i> Administrator</a></li>

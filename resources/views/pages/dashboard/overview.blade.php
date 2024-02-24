@@ -8,7 +8,7 @@
     <h1 class="h3 mb-3">Welcome back, {{ ucwords(auth()->user()->name) }}</h1>
 
     <p>
-        TimeNet Control Panel, that helps you manage the website modules, including users, posts, products, and orders.
+        Everything IOT Control Panel, that helps you manage the website modules, including users, posts, products, and orders.
     </p>
 
     <hr>
