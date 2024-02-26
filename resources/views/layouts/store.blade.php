@@ -9,20 +9,21 @@
 
     <!--Basic meta info -->
     <meta name="description"
-          content="Everything IOT is a leading Technology and Industrial Internet of Things solution provider/distributor with an extensive product range">
+          content="Everything IOT: A leading technology and industrial IOT solution.">
     <meta name="keywords"
           content="EverythingIoT, Internet, ISP, Store, Network Store, Network Devices, Switch, Router, Hub, Cable, Fiber">
     <meta name="author" content="Yad Hoshyar">
 
-    <!--OpenGraph meta -->
-    <meta property="og:description"
-          content="Everything IOT is a leading Technology and Industrial Internet of Things solution provider/distributor with an extensive product range">
-    <meta property="og:title" content="Everything IOT">
-    <meta property="og:image" content="{{ asset('images/logo.png') }}">
+    <meta name="description" content="Everything IOT: A leading technology and industrial IOT solution.">
+    <meta property="og:site_name" content="Everything IOT: A leading technology and industrial IOT solution"/>
+    <meta property="og:title" content="Everything IOT: A leading technology and industrial IOT solution"/>
+    <meta property="og:description" content="Everything IOT: A leading technology and industrial IOT solution."/>
+    <meta property="og:image" content="{{ asset('images/logo.png') }}"/>
+    <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ config('env.APP_URL') }}">
 
     <!-- Title -->
-    <title>Everything IOT</title>
+    <title>Everything IOT: A leading technology and industrial IOT solution</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('images/iot.png') }}">
