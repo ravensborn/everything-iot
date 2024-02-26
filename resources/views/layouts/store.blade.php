@@ -13,8 +13,7 @@
     <meta name="keywords"
           content="EverythingIoT, Internet, ISP, Store, Network Store, Network Devices, Switch, Router, Hub, Cable, Fiber">
     <meta name="author" content="Yad Hoshyar">
-
-    <meta name="description" content="Everything IOT: A leading technology and industrial IOT solution.">
+    
     <meta property="og:site_name" content="Everything IOT: A leading technology and industrial IOT solution"/>
     <meta property="og:title" content="Everything IOT: A leading technology and industrial IOT solution"/>
     <meta property="og:description" content="Everything IOT: A leading technology and industrial IOT solution."/>
