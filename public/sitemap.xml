@@ -8,78 +8,85 @@
 
 
 <url>
-  <loc>https://time-net.net/</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
+  <loc>https://everythingiot.net/</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://time-net.net/posts/grid/product-catalog</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
+  <loc>https://everythingiot.net/store</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://time-net.net/posts/grid/services</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
+  <loc>https://everythingiot.net/store/products</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://time-net.net/posts/grid/solutions</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
+  <loc>https://everythingiot.net/about-us</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://time-net.net/store</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
+  <loc>https://everythingiot.net/support</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://time-net.net/posts/grid/articles</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
+  <loc>https://everythingiot.net/login</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://time-net.net/downloads</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
+  <loc>https://everythingiot.net/register</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://time-net.net/faq</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
+  <loc>https://everythingiot.net/privacy-and-policy</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://time-net.net/about-us</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
+  <loc>https://everythingiot.net/terms-and-conditions</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://time-net.net/coming-soon</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://everythingiot.net/password/reset</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://time-net.net/posts/11-ways-to-protect-your-computer-from-viruses</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://everythingiot.net/posts/grid/product-catalog</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://time-net.net/posts/what-is-ransomware</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://everythingiot.net/posts/grid/services</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://time-net.net/posts/what-is-a-point-to-point-internet-connection-and-what-are-the-benefits</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://everythingiot.net/posts/grid/solutions</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://time-net.net/store/products</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://everythingiot.net/posts/grid/articles</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://time-net.net/login</loc>
-  <lastmod>2023-07-06T12:43:47+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://everythingiot.net/downloads</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://everythingiot.net/faq</loc>
+  <lastmod>2024-02-26T14:21:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
