@@ -84,6 +84,8 @@ return [
         'filter' => 'Filter',
         'filter_categories' => 'Categories',
         'filter_brands' => 'Brands',
+        'filter_sectors' => 'Sectors',
+        'filter_connectivities' => 'Connectivities',
         'clear_all' => 'Clear all',
         'newest' => 'Newest',
         'high_to_low' => 'Price, high to low',

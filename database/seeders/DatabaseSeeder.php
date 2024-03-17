@@ -92,7 +92,9 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             TimeNetBrandSeeder::class, //Brands
-            TimeNetProductSeeder::class, //Products
+            TimeNetSectorSeeder::class, //Brands
+            TimeNetConnectivitySeeder::class, //Brands
+//            TimeNetProductSeeder::class, //Products
 //            TimeNetServiceSeeder::class, //Services
 //            TimeNetFeatureSeeder::class, //Services
 //            TimeNetArticleSeeder::class, //Articles

@@ -4,8 +4,10 @@ namespace App\Http\Livewire\Dashboard\Products;
 
 use App\Models\Brand;
 use App\Models\Category;
+use App\Models\Connectivity;
 use App\Models\EnabledCountry;
 use App\Models\Product;
+use App\Models\Sector;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Collection;
 use Jantinnerezo\LivewireAlert\LivewireAlert;
@@ -19,6 +21,8 @@ class Create extends Component
     public Authenticatable $user;
 
     public Collection $brands;
+    public Collection $sectors;
+    public Collection $connectivities;
     public Collection $categories;
     public Collection $countries;
 
@@ -27,6 +31,8 @@ class Create extends Component
     public int $lc_country_id = 0;
     public int $category_id = 0;
     public int $brand_id = 0;
+    public int $sector_id = 0;
+    public int $connectivity_id = 0;
     public string $description = '';
     public $price = 0.0;
     public $previous_price = 0.0;
@@ -47,6 +53,8 @@ class Create extends Component
             'lc_country_id' => 'required|integer|exists:enabled_countries,lc_country_id',
             'category_id' => 'required|integer|exists:categories,id',
             'brand_id' => 'required|integer|exists:brands,id',
+            'sector_id' => 'required|integer|exists:sectors,id',
+            'connectivity_id' => 'required|integer|exists:connectivities,id',
             'stock' => 'required|integer',
             'price' => 'required|numeric|gt:-1|max:100000',
             'previous_price' => 'required|numeric|gt:-1|max:100000',
@@ -110,6 +118,8 @@ class Create extends Component
     public function mount(): void
     {
         $this->brands = Brand::all();
+        $this->sectors = Sector::all();
+        $this->connectivities = Connectivity::all();
         $this->categories = Category::where('model', Product::class)->get();
         $this->countries = EnabledCountry::all();
         if ($this->countries->count() > 0) {

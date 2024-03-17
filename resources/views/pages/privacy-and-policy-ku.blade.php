@@ -72,7 +72,7 @@
                 <p>We may update this Privacy Policy from time to time. The updated version will be posted on our website, and the effective date will be revised accordingly. By continuing to use our services after any changes to this policy, you consent to the updated terms.</p>
 
                 <h3>9. Contact Us:</h3>
-                <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at info@time-net.net.</p>
+                <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at info@everythingiot.net.</p>
 
                 <p>By using TimeNet, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and disclosure of your personal information as described herein.</p>
 

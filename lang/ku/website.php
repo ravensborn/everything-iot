@@ -78,6 +78,8 @@ return [
         'filter' => 'فلتەر',
         'filter_categories' => 'پۆلەکان',
         'filter_brands' => 'براندەکان',
+        'filter_sectors' => 'سێکتەرەکان',
+        'filter_connectivities' => 'ناوەندی گەیاندن',
         'clear_all' => 'سڕینەوەی هەموو',
         'newest' => 'نوێترین',
         'high_to_low' => 'نرخ، بەرز بۆ نزم',

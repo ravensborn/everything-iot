@@ -5,8 +5,10 @@ namespace App\Http\Livewire\Store\Products;
 use App\Models\Brand;
 use App\Models\CartItem;
 use App\Models\Category;
+use App\Models\Connectivity;
 use App\Models\Partner;
 use App\Models\Product;
+use App\Models\Sector;
 use App\Models\User;
 use App\Models\Wishlist;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -35,10 +37,14 @@ class Index extends Component
 
     public Collection $categories;
     public Collection $brands;
+    public Collection $sectors;
+    public Collection $connectivities;
     public Collection $partners;
 
     public array $selectedCategories = [];
     public array $selectedBrands = [];
+    public array $selectedSectors = [];
+    public array $selectedConnectivities = [];
 
     public string $displayProductsType = 'grid';
 
@@ -99,6 +105,8 @@ class Index extends Component
     {
         $this->categories = Category::where('model', Product::class)->get();
         $this->brands = Brand::all();
+        $this->sectors = Sector::all();
+        $this->connectivities = Connectivity::all();
         $this->partners = Partner::where('is_visible', true)->orderBy('order')->get();
 
         if (auth()->check()) {
@@ -180,14 +188,19 @@ class Index extends Component
         }
 
         if (count($this->selectedCategories) > 0) {
-
             $products->whereIn('category_id', $this->selectedCategories);
         }
 
         if (count($this->selectedBrands) > 0) {
-
             $products->whereIn('brand_id', $this->selectedBrands);
+        }
 
+        if (count($this->selectedSectors) > 0) {
+            $products->whereIn('sector_id', $this->selectedSectors);
+        }
+
+        if (count($this->selectedConnectivities) > 0) {
+            $products->whereIn('connectivity_id', $this->selectedConnectivities);
         }
 
         $this->products = $products->paginate(9);
@@ -200,6 +213,16 @@ class Index extends Component
     }
 
     public function _updateSelectedBrands(): void
+    {
+        $this->resetPage();
+    }
+
+    public function _updateSelectedSectors(): void
+    {
+        $this->resetPage();
+    }
+
+    public function _updateSelectedConnectivities(): void
     {
         $this->resetPage();
     }
@@ -223,6 +246,8 @@ class Index extends Component
 
         $this->selectedCategories = [];
         $this->selectedBrands = [];
+        $this->selectedSectors = [];
+        $this->selectedConnectivities = [];
 
         $this->getProducts();
 

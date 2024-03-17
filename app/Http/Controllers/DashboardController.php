@@ -5,12 +5,14 @@ namespace App\Http\Controllers;
 use App\Models\Brand;
 use App\Models\Category;
 use App\Models\Comment;
+use App\Models\Connectivity;
 use App\Models\FaqItem;
 use App\Models\Menu;
 use App\Models\Order;
 use App\Models\Partner;
 use App\Models\Post;
 use App\Models\Product;
+use App\Models\Sector;
 use App\Models\SubscriberList;
 use App\Models\SupportRequestItem;
 use App\Models\TeamMember;
@@ -226,6 +228,45 @@ class DashboardController extends Controller
 
         return view('pages.dashboard.brands.edit', [
             'brand' => $brand
+        ]);
+    }
+
+
+    public function sectorsIndex()
+    {
+        return view('pages.dashboard.sectors.index');
+    }
+
+    public function sectorsCreate()
+    {
+        return view('pages.dashboard.sectors.create');
+    }
+
+    public function sectorsEdit($slug)
+    {
+        $sector = Sector::where('slug', $slug)->firstOrFail();
+
+        return view('pages.dashboard.sectors.edit', [
+            'sector' => $sector
+        ]);
+    }
+
+    public function connectivitiesIndex()
+    {
+        return view('pages.dashboard.connectivities.index');
+    }
+
+    public function connectivitiesCreate()
+    {
+        return view('pages.dashboard.connectivities.create');
+    }
+
+    public function connectivitiesEdit($slug)
+    {
+        $connectivity = Connectivity::where('slug', $slug)->firstOrFail();
+
+        return view('pages.dashboard.connectivities.edit', [
+            'connectivity' => $connectivity
         ]);
     }
 

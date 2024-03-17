@@ -35,6 +35,13 @@ return new class extends Migration
             $table->foreign('brand_id')->references('id')
                 ->on('brands')->onDelete('restrict');
 
+            $table->unsignedBigInteger('sector_id');
+            $table->foreign('sector_id')->references('id')
+                ->on('sectors')->onDelete('restrict');
+
+            $table->unsignedBigInteger('connectivity_id');
+            $table->foreign('connectivity_id')->references('id')
+                ->on('connectivities')->onDelete('restrict');
 
             $table->unsignedBigInteger('promo_code_id')->nullable();
             $table->foreign('promo_code_id')

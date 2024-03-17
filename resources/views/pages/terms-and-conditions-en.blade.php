@@ -44,7 +44,7 @@
                 <p>We reserve the right, at our sole discretion, to modify or replace this Agreement at any time. You will be notified of any changes by posting the updated Agreement on the Service. Continued use of the Service after any such changes shall constitute your consent to such changes.</p>
 
                 <h2>9. Contact Us</h2>
-                <p>If you have any questions or concerns regarding this Agreement, please contact us at info@time-net.net.</p>
+                <p>If you have any questions or concerns regarding this Agreement, please contact us at info@everythingiot.net.</p>
 
                 <p>By using the Service, you acknowledge that you have read, understood, and agree to be bound by this Agreement.</p>
 

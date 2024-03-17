@@ -112,7 +112,7 @@
                     </li>
 
                     <li class="list-inline-item">
-                        <a class="btn btn-soft-light btn-xs btn-icon" href="mailto:info@time-net.net">
+                        <a class="btn btn-soft-light btn-xs btn-icon" href="mailto:info@everythingiot.net">
                             <i class="bi-envelope"></i>
                         </a>
                     </li>

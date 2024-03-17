@@ -4,10 +4,10 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
-use App\Models\Brand;
+use App\Models\Connectivity;
 use Illuminate\Database\Seeder;
 
-class TimeNetBrandSeeder extends Seeder
+class TimeNetConnectivitySeeder extends Seeder
 {
     /**
      * Seed the application's database.
@@ -18,16 +18,15 @@ class TimeNetBrandSeeder extends Seeder
     {
 
         $brands = [
-            'Teknykar',
-            'Seeed',
-            'Netvox',
-            'Teltonika',
-            'Tektelic',
-            'Milesight',
+            'LoraWan',
+            'WiFi',
+            'Bluetooth',
+            'Mudbus',
+            'ZigBee'
         ];
 
         foreach ($brands as $item) {
-            Brand::factory([
+            Connectivity::factory([
                 'name' => $item,
             ])->create();
         }

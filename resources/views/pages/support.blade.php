@@ -43,9 +43,9 @@
             </p>
 
             <p>
-                <a href="mailto:info@time-net.net">
+                <a href="mailto:info@everythingiot.net">
                     <i class="bi bi-envelope"></i>
-                    info@time-net.net
+                    info@everythingiot.net
                 </a>
                 &nbsp;
                 <a href="tel:+9647503807676">

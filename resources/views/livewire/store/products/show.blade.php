@@ -277,7 +277,7 @@
                             @endif
                         @else
                             <a class="btn btn-dark btn-transition rounded-pill"
-                               href="mailto:info@time-net.net">
+                               href="mailto:info@everythingiot.net">
                                 <i class="bi bi-envelope me-1"></i>
                                 {{ __('website.store.contact_us') }}
                             </a>

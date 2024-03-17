@@ -73,8 +73,8 @@ class Post extends Model implements HasMedia
     public function author(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
         return $this->belongsTo(User::class)->withDefault([
-            'name' => 'TimeNet Admin',
-            'email' => 'info@time-net.net'
+            'name' => 'EverythingIOT Admin',
+            'email' => 'info@everythingiot.net'
         ]);
     }
 

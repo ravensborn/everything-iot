@@ -265,6 +265,22 @@
                     </a>
                 </li>
 
+                <li class="sidebar-item @if(request()->is('dashboard/sectors')) active @endif">
+                    <a class="sidebar-link" href="{{ route('dashboard.sectors.index') }}">
+                        <i class="align-middle" data-feather="github"></i> <span class="align-middle">
+                           Sectors
+                        </span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item @if(request()->is('dashboard/connectivities')) active @endif">
+                    <a class="sidebar-link" href="{{ route('dashboard.connectivities.index') }}">
+                        <i class="align-middle" data-feather="github"></i> <span class="align-middle">
+                           Connectivities
+                        </span>
+                    </a>
+                </li>
+
                 <li class="sidebar-item @if(request()->is('dashboard/partners')) active @endif">
                     <a class="sidebar-link" href="{{ route('dashboard.partners.index') }}">
                         <i class="align-middle" data-feather="briefcase"></i> <span class="align-middle">

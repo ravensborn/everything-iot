@@ -80,6 +80,8 @@ return [
         'filter' => 'تصفية',
         'filter_categories' => 'الفئات',
         'filter_brands' => 'العلامات التجارية',
+        'filter_sectors' => 'قطاع',
+        'filter_connectivities' => 'وسائل الاتصال',
         'clear_all' => 'مسح الكل',
         'newest' => 'الأحدث',
         'high_to_low' => 'السعر من الأعلى للأدنى',

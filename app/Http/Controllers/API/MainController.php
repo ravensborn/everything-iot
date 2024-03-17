@@ -26,7 +26,7 @@ class MainController extends Controller
         $item = new SupportRequestItem;
         $item->create($validated);
 
-        $timeNetEmail = 'info@time-net.net';
+        $timeNetEmail = 'info@everythingiot.net';
 
         Mail::send(new RequestReceived($timeNetEmail, $validated['name'], $validated['email'], $validated['message']));
 

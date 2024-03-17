@@ -229,6 +229,24 @@ Route::middleware(['auth', 'verified'])->group(function () {
         Route::get('/dashboard/brands/{slug}/edit', [DashboardController::class, 'brandsEdit'])
             ->name('dashboard.brands.edit');
 
+        Route::get('/dashboard/sectors', [DashboardController::class, 'sectorsIndex'])
+            ->name('dashboard.sectors.index');
+
+        Route::get('/dashboard/sectors/create', [DashboardController::class, 'sectorsCreate'])
+            ->name('dashboard.sectors.create');
+
+        Route::get('/dashboard/sectors/{slug}/edit', [DashboardController::class, 'sectorsEdit'])
+            ->name('dashboard.sectors.edit');
+
+        Route::get('/dashboard/connectivities', [DashboardController::class, 'connectivitiesIndex'])
+            ->name('dashboard.connectivities.index');
+
+        Route::get('/dashboard/connectivities/create', [DashboardController::class, 'connectivitiesCreate'])
+            ->name('dashboard.connectivities.create');
+
+        Route::get('/dashboard/connectivities/{slug}/edit', [DashboardController::class, 'connectivitiesEdit'])
+            ->name('dashboard.connectivities.edit');
+
         Route::get('/dashboard/partners', [DashboardController::class, 'partnersIndex'])
             ->name('dashboard.partners.index');
 

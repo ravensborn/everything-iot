@@ -78,6 +78,16 @@ class Product extends Model implements HasMedia
         return $this->belongsTo(Brand::class);
     }
 
+    public function sectors(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(Sector::class);
+    }
+
+    public function connectivities(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(Connectivity::class);
+    }
+
     public function getFeatures(): array
     {
         if ($this->properties == null) {

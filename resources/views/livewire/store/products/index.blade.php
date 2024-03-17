@@ -111,34 +111,25 @@
                         <div class="w-100">
                             <!-- Form -->
                             <form>
+
                                 <div class="border-bottom pb-4 mb-4">
-                                    <h5>{{ __('website.store.filter_categories') }}</h5>
+                                    <h5>{{ __('website.store.filter_sectors') }}</h5>
+
                                     <div class="d-grid gap-2">
 
-                                        <!-- Checkboxes -->
-{{--                                        <div class="form-check" wire:key="0">--}}
-{{--                                            <input class="form-check-input" type="checkbox" value="all"--}}
-{{--                                                   id="categoryCheckbox-0"--}}
-{{--                                                   wire:model="selectedCategories"--}}
-{{--                                                   wire:change="_updateSelectedCategories">--}}
-{{--                                            <label class="form-check-label d-flex" for="categoryCheckbox-0">--}}
-{{--                                                All--}}
-{{--                                            </label>--}}
-{{--                                        </div>--}}
-                                        <!-- End Checkboxes -->
-                                        @foreach($categories as $key => $category)
+                                        @foreach($sectors as $sector)
 
                                             <!-- Checkboxes -->
-                                            <div class="form-check" wire:key="{{ $key + 1 }}">
+                                            <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
-                                                       value="{{ $category->id }}"
-                                                       id="categoryCheckbox-{{ $category->id }}"
-                                                       wire:model="selectedCategories"
-                                                       wire:change="_updateSelectedCategories">
+                                                       value="{{ $sector->id }}"
+                                                       id="sectorCheckbox-{{ $sector->id }}"
+                                                       wire:model="selectedSectors"
+                                                       wire:change="_updateSelectedSectors">
                                                 <label class="form-check-label d-flex"
-                                                       for="categoryCheckbox-{{ $category->id }}">
-                                                    {{ $category->name }}
-                                                    <span class="ms-auto">({{ $category->products->count() }})</span>
+                                                       for="sectorCheckbox-{{ $sector->id }}">
+                                                    {{ $sector->name }}
+                                                    <span class="ms-auto">({{ $sector->products->count() }})</span>
                                                 </label>
                                             </div>
                                             <!-- End Checkboxes -->
@@ -146,23 +137,36 @@
                                         @endforeach
                                     </div>
                                 </div>
+                                <div class="border-bottom pb-4 mb-4">
+                                    <h5>{{ __('website.store.filter_connectivities') }}</h5>
 
+                                    <div class="d-grid gap-2">
+
+                                        @foreach($connectivities as $connectivity)
+
+                                            <!-- Checkboxes -->
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox"
+                                                       value="{{ $connectivity->id }}"
+                                                       id="connectivityCheckbox-{{ $connectivity->id }}"
+                                                       wire:model="selectedConnectivities"
+                                                       wire:change="_updateSelectedConnectivities">
+                                                <label class="form-check-label d-flex"
+                                                       for="connectivityCheckbox-{{ $connectivity->id }}">
+                                                    {{ $connectivity->name }}
+                                                    <span class="ms-auto">({{ $connectivity->products->count() }})</span>
+                                                </label>
+                                            </div>
+                                            <!-- End Checkboxes -->
+
+                                        @endforeach
+                                    </div>
+                                </div>
                                 <div class="border-bottom pb-4 mb-4">
                                     <h5>{{ __('website.store.filter_brands') }}</h5>
 
                                     <div class="d-grid gap-2">
 
-                                        <!-- Checkboxes -->
-{{--                                        <div class="form-check">--}}
-{{--                                            <input class="form-check-input" type="checkbox" value="all"--}}
-{{--                                                   id="BrandCheckbox-0"--}}
-{{--                                                   wire:model="selectedBrands"--}}
-{{--                                                   wire:change="_updateSelectedBrands">--}}
-{{--                                            <label class="form-check-label d-flex" for="BrandCheckbox-0">--}}
-{{--                                                All--}}
-{{--                                            </label>--}}
-{{--                                        </div>--}}
-                                        <!-- End Checkboxes -->
                                         @foreach($brands as $brand)
 
                                             <!-- Checkboxes -->
@@ -362,7 +366,7 @@
                                                     @endif
                                                 @else
                                                     <div>
-                                                        <a href="mailto:info@time-net.net"
+                                                        <a href="mailto:info@everythingiot.net"
                                                            class="btn btn-outline-dark btn-sm">
                                                             <i class="bi bi-envelope me-1"></i>
                                                             {{ __('website.store.contact_us') }}
@@ -435,7 +439,7 @@
                                                                         @endif
                                                                     @else
                                                                         <div>
-                                                                            <a href="mailto:info@time-net.net"
+                                                                            <a href="mailto:info@everythingiot.net"
                                                                                class="btn btn-outline-dark btn-sm">
                                                                                 <i class="bi bi-envelope me-1"></i>
                                                                                 {{ __('website.store.contact_us') }}
