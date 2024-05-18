@@ -33,6 +33,9 @@ Route::get('/', LivewireStoreIndex::class)
 Route::get('/support', [PageController::class, 'support'])
     ->name('support');
 
+Route::get('/contact', [PageController::class, 'contact'])
+    ->name('contact');
+
 Route::post('/support-send-email', [PageController::class, 'supportEmail'])
     ->name('support-send-email');
 

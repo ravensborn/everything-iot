@@ -18,6 +18,11 @@ class PageController extends Controller
         return view('pages.support');
     }
 
+    public function contact()
+    {
+        return view('pages.contact');
+    }
+
     public function supportEmail()
     {
 

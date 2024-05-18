@@ -25,6 +25,7 @@
                 <ul class="list-unstyled list-py-1">
                     <li><a class="link-sm link-light" href="#"><i class="bi-geo-alt-fill me-1"></i> {{ __('website.footer.address') }}</a></li>
                     <li><a class="link-sm link-light" href="tel:+9647503807676"><i class="bi-telephone-inbound-fill me-1"></i> +964 (750) 380-7676</a></li>
+                    <li><a class="link-sm link-light" href="mailto:sales@time-net.net"><i class="bi-envelope-fill me-1"></i> sales@time-net.net</a></li>
                 </ul>
                 <!-- End List -->
 
