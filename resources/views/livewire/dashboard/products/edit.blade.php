@@ -136,6 +136,15 @@
                     @enderror
                 </div>
             </div>
+            <div class="col-6">
+                <div>
+                    <label for="order" class="form-label">Product Order <small>(Optional)</small></label>
+                    <input type="text" id="order" class="form-control" wire:model="order">
+                    @error('order')
+                    <small class="text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
+            </div>
         </div>
         <div class="row mt-3">
             <div class="col-6">

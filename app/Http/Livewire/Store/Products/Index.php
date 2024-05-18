@@ -180,7 +180,8 @@ class Index extends Component
         }
 
         if ($this->sorting_method == 'newest_top') {
-            $products->orderBy('created_at', 'desc');
+            $products->orderBy('order', 'desc')
+                ->orderBy('created_at', 'desc');
         } else if ($this->sorting_method == 'price_high_to_low') {
             $products->orderBy('price', 'desc');
         } else if ($this->sorting_method == 'price_low_to_high') {

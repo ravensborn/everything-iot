@@ -59,6 +59,7 @@ class ProductsTable extends DataTableComponent
     {
         return [
             Column::make("#", "id"),
+            Column::make("Order", "order")->sortable(),
             Column::make("Name", "name")
                 ->searchable(),
             Column::make("Views", "id")
