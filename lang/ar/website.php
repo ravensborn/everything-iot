@@ -122,6 +122,10 @@ return [
     ],
 
     'menu' => [
+
+        //header
+        'contact_us' => 'اتصل بنا',
+
         'left_text' => 'TimeNet ISP',
 
         'my_account' => 'حسابي',

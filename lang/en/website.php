@@ -128,6 +128,9 @@ return [
 
     'menu' => [
 
+        //header
+        'contact_us' => 'Contact Us',
+
         'left_text' => 'Everything IOT',
 
         'my_account' => 'My Account',
