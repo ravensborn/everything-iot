@@ -94,7 +94,7 @@ class DatabaseSeeder extends Seeder
             TimeNetBrandSeeder::class, //Brands
             TimeNetSectorSeeder::class, //Brands
             TimeNetConnectivitySeeder::class, //Brands
-//            TimeNetProductSeeder::class, //Products
+            TimeNetProductSeeder::class, //Products
 //            TimeNetServiceSeeder::class, //Services
 //            TimeNetFeatureSeeder::class, //Services
 //            TimeNetArticleSeeder::class, //Articles

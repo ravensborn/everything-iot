@@ -78,9 +78,9 @@ class Product extends Model implements HasMedia
         return $this->belongsTo(Brand::class);
     }
 
-    public function sectors(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    public function sectors(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
     {
-        return $this->belongsTo(Sector::class);
+        return $this->belongsToMany(Sector::class, 'product_sector');
     }
 
     public function connectivities(): \Illuminate\Database\Eloquent\Relations\BelongsTo

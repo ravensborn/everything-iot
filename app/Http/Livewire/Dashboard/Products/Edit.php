@@ -28,12 +28,12 @@ class Edit extends Component
     public Collection $categories;
     public Collection $countries;
 
-    public string|null $order = '';
+    public string|null $order = null;
     public string $name = '';
     public int $lc_country_id = 0;
     public int $category_id = 0;
     public int $brand_id = 0;
-    public int $sector_id = 0;
+    public array $sector_ids = [];
     public int $connectivity_id = 0;
     public string $description = '';
     public $price = 0.0;
@@ -56,7 +56,8 @@ class Edit extends Component
             'lc_country_id' => 'required|integer|exists:enabled_countries,lc_country_id',
             'category_id' => 'required|integer|exists:categories,id',
             'brand_id' => 'required|integer|exists:brands,id',
-            'sector_id' => 'required|integer|exists:sectors,id',
+            'sector_ids' => 'required|array',
+            'sector_ids.*' => 'required|integer|exists:sectors,id',
             'connectivity_id' => 'required|integer|exists:connectivities,id',
             'stock' => 'required|integer',
             'price' => 'required|numeric|gt:-1|max:100000',
@@ -71,8 +72,17 @@ class Edit extends Component
             $validated['stock'] = 0;
         }
 
+        if(!$this->order) {
+
+            $validated['order'] = null;
+        }
+
         $product = $this->product;
         $product->update($validated);
+
+        if(count($this->sector_ids) > 0) {
+            $product->sectors()->sync($this->sector_ids);
+        }
 
         if (count($this->productFeaturesArray) > 0) {
             $productFeatures = [];
@@ -131,11 +141,12 @@ class Edit extends Component
         $this->user = auth()->user();
 
         $this->product = $product;
+        $this->order = $product->order;
         $this->name = $product->name;
         $this->lc_country_id = $product->lc_country_id;
         $this->category_id = $product->category_id;
         $this->brand_id = $product->brand_id;
-        $this->sector_id = $product->sector_id;
+        $this->sector_ids = $product->sectors()->pluck('sectors.id')->toArray();
         $this->connectivity_id = $product->connectivity_id;
         $this->description = $product->description;
         $this->price = $product->price;

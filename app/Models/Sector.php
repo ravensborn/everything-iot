@@ -21,8 +21,8 @@ class Sector extends Model
             ->saveSlugsTo('slug');
     }
 
-    public function products(): \Illuminate\Database\Eloquent\Relations\HasMany
+    public function products(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
     {
-        return $this->hasMany(Product::class);
+        return $this->belongsToMany(Product::class, 'product_sector');
     }
 }

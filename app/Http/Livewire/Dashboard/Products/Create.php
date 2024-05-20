@@ -31,7 +31,7 @@ class Create extends Component
     public int $lc_country_id = 0;
     public int $category_id = 0;
     public int $brand_id = 0;
-    public int $sector_id = 0;
+    public array $sector_ids = [];
     public int $connectivity_id = 0;
     public string $description = '';
     public $price = 0.0;
@@ -53,7 +53,8 @@ class Create extends Component
             'lc_country_id' => 'required|integer|exists:enabled_countries,lc_country_id',
             'category_id' => 'required|integer|exists:categories,id',
             'brand_id' => 'required|integer|exists:brands,id',
-            'sector_id' => 'required|integer|exists:sectors,id',
+            'sector_ids' => 'required|array',
+            'sector_ids.*' => 'required|integer|exists:sectors,id',
             'connectivity_id' => 'required|integer|exists:connectivities,id',
             'stock' => 'required|integer',
             'price' => 'required|numeric|gt:-1|max:100000',
@@ -68,9 +69,14 @@ class Create extends Component
             $validated['stock'] = 0;
         }
 
-
         $product = new Product;
         $product = $product->create($validated);
+
+
+        if(count($this->sector_ids) > 0) {
+            $product->sectors()->sync($this->sector_ids);
+        }
+
 
         if (count($this->productFeaturesArray) > 0) {
             $productFeatures = [];

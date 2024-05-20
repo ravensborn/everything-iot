@@ -64,8 +64,8 @@
         <div class="row mt-3">
             <div class="col-6">
                 <div>
-                    <label for="sector_id" class="form-label">Sector</label>
-                    <select id="sector_id" class="form-control" wire:model="sector_id">
+                    <label for="sector_id" class="form-label">Sectors</label>
+                    <select id="sector_id" class="form-control" wire:model="sector_ids" multiple>
                         <option value="0"> -- Select a sector --</option>
                         @foreach($sectors as $sector)
                             <option value="{{ $sector->id }}">
@@ -73,7 +73,7 @@
                             </option>
                         @endforeach
                     </select>
-                    @error('sector_id')
+                    @error('sector_ids')
                     <small class="text-danger">{{ $message }}</small>
                     @enderror
                 </div>

@@ -197,7 +197,9 @@ class Index extends Component
         }
 
         if (count($this->selectedSectors) > 0) {
-            $products->whereIn('sector_id', $this->selectedSectors);
+            $products->whereHas('sectors', function($query) {
+                $query->whereIn('sectors.id', $this->selectedSectors);
+            });
         }
 
         if (count($this->selectedConnectivities) > 0) {
