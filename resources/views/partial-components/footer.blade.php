@@ -61,8 +61,6 @@
 
                 <!-- List -->
                 <ul class="list-unstyled list-py-1 mb-5">
-                    <li><a class="link-sm link-light" href="{{ route('faq') }}"><i class="bi-question-circle me-1"></i> {{ __('website.footer.faq')  }}</a></li>
-                    <li><a class="link-sm link-light" href="{{ route('downloads') }}"><i class="bi-download me-1"></i> {{ __('website.footer.downloads')  }}</a></li>
                     <li><a class="link-sm link-light" href="{{ route('users.account.overview') }}"><i class="bi-person-circle me-1"></i> {{ __('website.footer.your_account') }}</a></li>
                     @if(auth()->check() && (auth()->user()->hasRole('admin') || auth()->user()->hasRole('moderator')))
                         <li><a class="link-sm link-light" href="{{ route('dashboard.overview') }}"><i class="bi-lightning-charge me-1"></i> Administrator</a></li>
