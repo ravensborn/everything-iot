@@ -80,13 +80,16 @@
                     </div>
                 </div>
             @endif
-            @if(in_array($menuItemType, [\App\Models\Menu::ITEM_TYPE_POST, \App\Models\Menu::ITEM_TYPE_ROUTE, \App\Models\Menu::ITEM_TYPE_LINK, \App\Models\Menu::ITEM_TYPE_CALL_US_BTN]))
+            @if(in_array($menuItemType, [\App\Models\Menu::ITEM_TYPE_POST, \App\Models\Menu::ITEM_TYPE_ROUTE, \App\Models\Menu::ITEM_TYPE_ROUTE_STYLED, \App\Models\Menu::ITEM_TYPE_LINK, \App\Models\Menu::ITEM_TYPE_CALL_US_BTN]))
                 <div class="mt-3">
                     <label for="destination" class="form-label">
                         @if($menuItemType == \App\Models\Menu::ITEM_TYPE_POST)
                             Post slug name
                         @endif
                         @if($menuItemType == \App\Models\Menu::ITEM_TYPE_ROUTE)
+                            Route name
+                        @endif
+                        @if($menuItemType == \App\Models\Menu::ITEM_TYPE_ROUTE_STYLED)
                             Route name
                         @endif
                         @if($menuItemType == \App\Models\Menu::ITEM_TYPE_LINK)
@@ -119,7 +122,7 @@
 
             @forelse($items as $index => $item)
 
-                @if(in_array($item['type'], [App\Models\Menu::ITEM_TYPE_ROUTE, App\Models\Menu::ITEM_TYPE_LINK, App\Models\Menu::ITEM_TYPE_POST]))
+                @if(in_array($item['type'], [App\Models\Menu::ITEM_TYPE_ROUTE, App\Models\Menu::ITEM_TYPE_ROUTE_STYLED, App\Models\Menu::ITEM_TYPE_LINK, App\Models\Menu::ITEM_TYPE_POST]))
                     <div class="shadow border rounded p-2 mb-2">
                         <div class="d-flex justify-content-between">
                             <div>

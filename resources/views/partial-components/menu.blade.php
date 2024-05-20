@@ -13,6 +13,18 @@
         </li>
     @endif
 
+    @if($item['type'] == \App\Models\Menu::ITEM_TYPE_ROUTE_STYLED)
+        <li class="nav-item">
+            <a class="btn btn-light btn-transition btn-sm" href="{{ $item['url'] }}">
+                @if(\Illuminate\Support\Facades\Lang::has('website.menu.' . $item['name'], session()->get('locale')))
+                    {!! trans('website.menu.' . $item['name'])  !!}
+                @else
+                    {!! $item['name'] !!}
+                @endif
+            </a>
+        </li>
+    @endif
+
     @if(in_array($item['type'], [\App\Models\Menu::ITEM_TYPE_ROUTE_DROPDOWN, \App\Models\Menu::ITEM_TYPE_LINK_DROPDOWN, \App\Models\Menu::ITEM_TYPE_POST_DROPDOWN]))
         <li class="hs-has-sub-menu nav-item">
             <a id="pagesMegaMenu"
@@ -112,8 +124,10 @@
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
                      style="min-width: 14rem;">
-                    <a class="dropdown-item" href="{{ route('users.account.overview') }}">{{ __('website.menu.profile') }}</a>
-                    <a class="dropdown-item" href="{{ route('users.store.orders.index') }}">{{ __('website.menu.orders') }}</a>
+                    <a class="dropdown-item"
+                       href="{{ route('users.account.overview') }}">{{ __('website.menu.profile') }}</a>
+                    <a class="dropdown-item"
+                       href="{{ route('users.store.orders.index') }}">{{ __('website.menu.orders') }}</a>
                     <a class="dropdown-item" href="{{ route('logout') }}">{{ __('website.menu.logout') }}</a>
                 </div>
                 <!-- End Mega Menu -->

@@ -13,6 +13,8 @@ class Menu extends Model
 
     protected $casts = ['properties' => 'array', 'items' => 'array'];
     const ITEM_TYPE_ROUTE = 'route';
+
+    const ITEM_TYPE_ROUTE_STYLED = 'route_styled';
     const ITEM_TYPE_LINK = 'link';
     const ITEM_TYPE_POST = 'post';
     const ITEM_TYPE_POST_DROPDOWN = 'post_dropdown';
@@ -27,6 +29,7 @@ class Menu extends Model
     {
         return [
             self::ITEM_TYPE_ROUTE,
+            self::ITEM_TYPE_ROUTE_STYLED,
             self::ITEM_TYPE_LINK,
             self::ITEM_TYPE_POST,
             self::ITEM_TYPE_ROUTE_DROPDOWN,

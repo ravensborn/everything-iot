@@ -127,6 +127,17 @@ class Edit extends Component
 
         }
 
+        if ($this->menuItemType == Menu::ITEM_TYPE_ROUTE_STYLED) {
+
+            if (\Route::has($this->destination)) {
+                $data['url'] = route($this->destination);
+            } else {
+                $this->addError('destination', 'Invalid laravel route name.');
+                $pass = false;
+            }
+
+        }
+
         if ($this->menuItemType == Menu::ITEM_TYPE_LINK) {
 
             if (filter_var($this->destination, FILTER_VALIDATE_URL)) {
