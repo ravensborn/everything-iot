@@ -38,7 +38,7 @@
                 <!-- List -->
                 <ul class="list-unstyled list-py-1 mb-0">
                     <li><a class="link-sm link-light" href="{{ route('about') }}">{{ __('website.footer.about') }}</a></li>
-                    <li><a class="link-sm link-light" href="tel:9647503807676">{{ __('website.footer.contact_us') }}</a></li>
+                    <li><a class="link-sm link-light" href="{{ route('contact') }}">{{ __('website.footer.contact_us') }}</a></li>
                 </ul>
                 <!-- End List -->
             </div>
