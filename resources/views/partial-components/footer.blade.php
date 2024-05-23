@@ -96,7 +96,7 @@
                 <ul class="list-inline mb-0">
 
                     <li class="list-inline-item">
-                        <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.linkedin.com/company/timenet/">
+                        <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.linkedin.com/company/teknykar-iot/">
                             <i class="bi-linkedin"></i>
                         </a>
                     </li>
@@ -107,7 +107,7 @@
                     </li>
 
                     <li class="list-inline-item">
-                        <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.instagram.com/time.nett/">
+                        <a class="btn btn-soft-light btn-xs btn-icon" href="https://www.instagram.com/teknykar_iot/">
                             <i class="bi-instagram"></i>
                         </a>
                     </li>
